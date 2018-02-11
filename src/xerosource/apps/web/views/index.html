@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>XeroSource</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{{url_for("static", filename="icons/flaticon/flaticon.css")}}">
+        <link rel="stylesheet" href="{{url_for("static", filename="css/fonts.css")}}">
+        <link rel="stylesheet" href="{{url_for("static", filename="css/index.css")}}">
+        <script type="text/javascript" src="{{url_for('static', filename='js/resources/jquery-3.2.1.min.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/resources/jquery-ui.min.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/resources/jquery.validate.min.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/resources/jquery.validate.ext.min.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/resources/knockout-3.4.2.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/system.ui.js')}}"></script>
+        <script type="text/javascript" src="{{url_for('static', filename='js/system.js')}}"></script>
+    </head>
+    <body>
+        <div id="app" data-app="{{ app }}"></div>
+        <div id="js"></div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6"
+    },
+    // "dependencies": {
+    //     "lodash": "^4.17.0"
+    // },
+    // "typeAcquisition": {
+    //     "include": [
+    //         "lodash"
+    //     ]
+    // },
+    "include": [
+        "**/*.js"
+    ],
+    "exclude": [
+        "**/backup/*.js"
+    ]
+}
