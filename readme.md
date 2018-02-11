@@ -4,6 +4,7 @@ Web [HTML,CSS,JS,KnockoutJS]
 
 #### 1. Configuration
 
+	cd ./src/xerosource
 	virtualenv -p python3 venv
 	pip install -r requirements.txt
 
