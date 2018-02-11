@@ -6,12 +6,13 @@ Web [HTML,CSS,JS,KnockoutJS]
 
 	cd ./src/xerosource
 	virtualenv -p python3 venv
+	source venv/bin/activate
 	pip install -r requirements.txt
 
 #### 2. Starting Project
 
-	python web.api.py
-	python web.py
+	python web.api.py # (console #1)
+	python web.py # (console #2)
 
 #### 3. Using Project
 
